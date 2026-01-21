@@ -28,7 +28,7 @@ resource "aws_instance" "sftp_server" {
   instance_type = var.instance_type
   subnet_id     = var.subnet_id
   key_name      = var.key_name
-  
+
   associate_public_ip_address = false
 
   vpc_security_group_ids = [aws_security_group.sftp_sg.id]
