@@ -1,0 +1,16 @@
+# environmental values
+namespace: eks-test
+environment: test
+account_id: "AWS_ACCOUNT_ID"
+region: "AWS_region"
+context: test
+
+tags:
+  Namespace: eks-test
+  Environment: test
+  Terraform: true
+  cost:applicationrole: eks-testTestEKS
+  cost:company: Company_Name
+  cost:project: 60005_eks-testTest 
+  cost:environment: Test
+
